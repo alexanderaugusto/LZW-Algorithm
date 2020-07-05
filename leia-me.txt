@@ -1,0 +1,10 @@
+** Execução ** 
+Já que eu escolhi fazer o algoritmo em javascript, desenovli um código html só pra demonstrar o funcionamento, é só abrir o index.html em algum navegador e fazer os testes. Más se quiser testar pelo terminal fique a vontade, é só abrir o arquivo Lzw.js e executar o código pelo console (Fiz isso usando o Visual Code, más acho que deve ter outras IDE's que fazem isso).
+
+** Lzw.js **
+É neste arquivo que está toda lógica do algoritmo, é nele que estão as duas funções (compressão e descompressão). Como o próprio nome já diz: A função "lzw_compress" comprimi uma string e a função "lzw_decompress" descomprimi uma string comprimida.
+
+** Outros **
+Os demais arquivos são de imagens e estilização (sei que tá uma bosta, más é porque eu não utilizei muito do meu precioso tempo pra isso kkkkkk). 
+
+  

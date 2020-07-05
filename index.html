@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercício C209</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <!-- <link href = "style.css" rel = "stylesheet"> -->
+</head>
+
+<body background="img/lzw_background.jpg">
+
+  <div class="div-main">
+    <div>
+      <input type="text" name="search" placeholder="Digite um texto..." id="input-text" />
+      <button class="button button-compress" onclick="main()"> Comprimir </button>
+    </div>
+
+    <div class="block">
+      <div class="c">
+        <h2> Texto comprimido: </p>
+        <span id="compressed-text"> </span>
+        <h2> Texto descomprimido: </p>
+        <span id="uncompressed-text"> </span>
+        <h2> Taxa de conversão: </p>
+        <span id="ratio-text"> </span>
+      </div>
+      <div class="img-div">
+        <img class="icon" src="img/compression_icon.svg" alt="icon" height="100" width="100">
+      </div>
+    </div>
+  </div>
+
+  <script src="Lzw.js">
+
+  </script>
+</body>
+
+</html>
